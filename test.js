@@ -7,5 +7,4 @@ global.Promise = Promise;
 
 test(t => {
 	t.is(typeof zenObservable.of(1, 2)[x]().forEach, 'function');
-	t.end();
 });
