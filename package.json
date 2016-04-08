@@ -29,6 +29,6 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*",
-    "zen-observable": "^0.1.6"
+    "zen-observable": "^0.2.1"
   }
 }
