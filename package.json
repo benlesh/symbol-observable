@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "Symbol.observable ponyfill",
   "license": "MIT",
-  "repository": "sindresorhus/symbol-observable",
+  "repository": "blesh/symbol-observable",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
@@ -18,8 +18,6 @@
   "files": [
     "index.js",
     "ponyfill.js",
-    "readme.md",
-    "license",
     "index.d.ts"
   ],
   "keywords": [
@@ -33,6 +31,5 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
-  },
-  "dependencies": {}
+  }
 }

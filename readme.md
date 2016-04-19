@@ -1,4 +1,4 @@
-# symbol-observable [![Build Status](https://travis-ci.org/sindresorhus/symbol-observable.svg?branch=master)](https://travis-ci.org/sindresorhus/symbol-observable)
+# symbol-observable [![Build Status](https://travis-ci.org/blesh/symbol-observable.svg?branch=master)](https://travis-ci.org/blesh/symbol-observable)
 
 > [Symbol.observable](https://github.com/zenparsing/es-observable) ponyfill
 
