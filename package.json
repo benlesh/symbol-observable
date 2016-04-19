@@ -1,6 +1,6 @@
 {
   "name": "symbol-observable",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Symbol.observable ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/symbol-observable",
