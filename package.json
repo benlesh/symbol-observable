@@ -19,7 +19,8 @@
     "index.js",
     "ponyfill.js",
     "readme.md",
-    "license"
+    "license",
+    "index.d.ts"
   ],
   "keywords": [
     "symbol",
