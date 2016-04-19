@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && mocha"
+    "test": "mocha"
   },
   "files": [
     "index.js"
@@ -28,8 +28,7 @@
   ],
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "xo": "*"
+    "mocha": "^2.4.5"
   },
   "dependencies": {}
 }
