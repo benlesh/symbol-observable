@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && mocha"
   },
   "files": [
     "index.js"
@@ -27,8 +27,9 @@
     "shim"
   ],
   "devDependencies": {
-    "ava": "*",
-    "xo": "*",
-    "zen-observable": "^0.2.1"
-  }
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "xo": "*"
+  },
+  "dependencies": {}
 }
