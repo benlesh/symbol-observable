@@ -1,3 +1,13 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/sindresorhus/symbol-observable/compare/0.2.0...v0.2.1) (2016-04-19)
+
+
+### Bug Fixes
+
+* **publish:** publish all required files ([5f26c3a](https://github.com/sindresorhus/symbol-observable/commit/5f26c3a))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/sindresorhus/symbol-observable/compare/v0.1.0...v0.2.0) (2016-04-19)
 
