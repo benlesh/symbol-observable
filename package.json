@@ -16,7 +16,10 @@
     "test": "mocha"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "ponyfill.js",
+    "readme.md",
+    "license"
   ],
   "keywords": [
     "symbol",
