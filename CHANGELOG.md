@@ -1,7 +1,9 @@
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/blesh/symbol-observable/compare/0.2.3...v0.2.3) (2016-04-24)
 
+### Bug Fixes
 
+- **IE8/ECMAScript 3**: Make sure legacy browsers don't choke on a property named `for`. ([9aaa7c](https://github.com/blesh/symbol-observable/9aaa7c))
 
 
 <a name="0.2.2"></a>
