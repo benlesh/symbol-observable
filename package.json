@@ -1,13 +1,12 @@
 {
   "name": "symbol-observable",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Symbol.observable ponyfill",
   "license": "MIT",
   "repository": "blesh/symbol-observable",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Ben Lesh",
+    "email": "ben@benlesh.com"
   },
   "engines": {
     "node": ">=0.10.0"
