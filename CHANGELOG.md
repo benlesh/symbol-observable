@@ -1,3 +1,14 @@
+<a name="0.2.4"></a>
+## [0.2.4](https://github.com/blesh/symbol-observable/compare/0.2.2...v0.2.4) (2016-04-25)
+
+
+### Bug Fixes
+
+* **IE8 support:** Ensure ES3 support so IE8 is happy ([9aaa7c3](https://github.com/blesh/symbol-observable/commit/9aaa7c3))
+* **Symbol.observable:** should NOT equal `Symbol.for('observable')`. ([3b0fdee](https://github.com/blesh/symbol-observable/commit/3b0fdee)), closes [#7](https://github.com/blesh/symbol-observable/issues/7)
+
+
+
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/blesh/symbol-observable/compare/0.2.3...v0.2.3) (2016-04-24)
 
