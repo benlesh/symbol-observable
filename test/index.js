@@ -13,8 +13,8 @@ describe('integration test', function () {
 
 			describe('Symbol.observable', function () {
 				if (typeof Symbol.for === 'function') {
-					it('should be the same as Symbol.for("observable")', function () {
-						expect(Symbol.observable).to.equal(Symbol.for('observable'));
+					it('should NOT be the same as Symbol.for("observable")', function () {
+						expect(Symbol.observable).to.not.equal(Symbol.for('observable'));
 					});
 				}
 

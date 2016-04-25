@@ -8,11 +8,7 @@ module.exports = function symbolObservablePonyfill(root) {
 		if (Symbol.observable) {
 			result = Symbol.observable;
 		} else {
-			if (typeof Symbol['for'] === 'function') {
-				result = Symbol['for']('observable');
-			} else {
-				result = Symbol('observable');
-			}
+			result = Symbol('observable');
 			Symbol.observable = result;
 		}
 	} else {
