@@ -1,4 +1,10 @@
 /* global window */
 'use strict';
 
-module.exports = require('./ponyfill')(global || window || this);
+var root = this;
+if (typeof global !== 'undefined') {
+	root = global;
+} else if (typeof window !== 'undefined') {
+	root = window;
+}
+module.exports = require('./ponyfill')(root);
