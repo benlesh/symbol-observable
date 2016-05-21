@@ -12,7 +12,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "build": "babel es --out-dir lib",
+    "test": "npm run build && mocha"
   },
   "files": [
     "index.js",
@@ -28,6 +29,9 @@
     "shim"
   ],
   "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
   }
