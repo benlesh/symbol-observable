@@ -1,6 +1,6 @@
 export default function symbolObservablePonyfill(root) {
 	let result;
-	let Symbol = root.Symbol;
+	const Symbol = root.Symbol;
 
 	if (typeof Symbol === 'function') {
 		if (Symbol.observable) {
