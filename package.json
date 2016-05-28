@@ -12,9 +12,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha && tsc ./ts-test/test.ts && node ./ts-test/test.js"
+    "test": "npm run build && mocha && tsc ./ts-test/test.ts && node ./ts-test/test.js",
     "build": "babel es --out-dir lib",
-    "test": "npm run build && mocha",
     "prepublish": "npm test"
   },
   "files": [
