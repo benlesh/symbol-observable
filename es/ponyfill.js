@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = function symbolObservablePonyfill(root) {
+export default function symbolObservablePonyfill(root) {
 	var result;
 	var Symbol = root.Symbol;
 
