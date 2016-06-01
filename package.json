@@ -25,6 +25,7 @@
     "lib/index.js",
     "lib/ponyfill.js"
   ],
+  "jsnext:main": "es/index.js",
   "keywords": [
     "symbol",
     "observable",
