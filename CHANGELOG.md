@@ -1,3 +1,24 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/blesh/symbol-observable/compare/0.2.4...v1.0.0) (2016-06-13)
+
+
+### Bug Fixes
+
+* **index.js:** use typeof to check for global or window definitions (#8) ([5f4c2c6](https://github.com/blesh/symbol-observable/commit/5f4c2c6))
+* **types:** use default syntax for typedef ([240e3a6](https://github.com/blesh/symbol-observable/commit/240e3a6))
+* **TypeScript:** exported ponyfill now works with TypeScript ([c0b894e](https://github.com/blesh/symbol-observable/commit/c0b894e))
+
+### Features
+
+* **es2015:** add es2015 implementation to support rollup (#10) ([7a41de9](https://github.com/blesh/symbol-observable/commit/7a41de9))
+
+
+### BREAKING CHANGES
+
+* TypeScript: CJS users will now have to `require('symbol-observable').default` rather than just `require('symbol-observable')` this was done to better support ES6 module bundlers.
+
+
+
 <a name="0.2.4"></a>
 ## [0.2.4](https://github.com/blesh/symbol-observable/compare/0.2.2...v0.2.4) (2016-04-25)
 
