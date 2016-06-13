@@ -1,6 +1,6 @@
 /* global describe, it */
 var expect = require('chai').expect;
-var $$observable = require('../');
+var $$observable = require('../').default;
 
 describe('integration test', function () {
 	if (typeof Symbol === 'function') {

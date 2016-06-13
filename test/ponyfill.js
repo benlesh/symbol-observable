@@ -1,6 +1,6 @@
 /* global describe, it */
 var expect = require('chai').expect;
-var ponyfill = require('../lib/ponyfill');
+var ponyfill = require('../lib/ponyfill').default;
 
 describe('ponyfill unit tests', function () {
   describe('when Symbol does NOT exist as a function', function () {

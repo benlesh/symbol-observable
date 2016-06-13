@@ -9,6 +9,4 @@ if (typeof global !== 'undefined') {
 }
 
 var result = ponyfill(root);
-// being explicit
-result['default'] = result;
 export default result;
