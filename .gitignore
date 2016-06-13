@@ -1,2 +1,3 @@
 node_modules
 lib
+ts-test/test.js
