@@ -1,11 +1,12 @@
 /* global window */
 import ponyfill from './ponyfill';
 
-let root = this;
+var root = this;
 if (typeof global !== 'undefined') {
 	root = global;
 } else if (typeof window !== 'undefined') {
 	root = window;
 }
 
-export default ponyfill(root);
+var result = ponyfill(root);
+export default result;
