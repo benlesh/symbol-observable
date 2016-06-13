@@ -26,6 +26,7 @@
     "lib/ponyfill.js"
   ],
   "jsnext:main": "es/index.js",
+  "typings": "index.d.ts",
   "keywords": [
     "symbol",
     "observable",
