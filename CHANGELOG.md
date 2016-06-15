@@ -1,3 +1,13 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/blesh/symbol-observable/compare/1.0.0...v1.0.1) (2016-06-15)
+
+
+### Bug Fixes
+
+* **bundlers:** fix issue that caused some bundlers not to be able to locate `/lib` (#19) ([dd8fdfe](https://github.com/blesh/symbol-observable/commit/dd8fdfe)), closes [(#19](https://github.com/(/issues/19) [#17](https://github.com/blesh/symbol-observable/issues/17)
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/blesh/symbol-observable/compare/0.2.4...v1.0.0) (2016-06-13)
 
