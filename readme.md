@@ -15,7 +15,7 @@ $ npm install --save symbol-observable
 With a CommonJS loader:
 
 ```js
-const symbolObservable = require('symbol-observable');
+const symbolObservable = require('symbol-observable').default;
 
 console.log(symbolObservable);
 //=> Symbol(observable)
@@ -34,7 +34,7 @@ With an AMD module loader:
 
 ```js
 require([ 'symbol-observable' ], function (symbolObservable) {
-	console.log(symbolObservable);
+	console.log(symbolObservable.default);
 	//=> Symbol(observable)
 });
 ```
