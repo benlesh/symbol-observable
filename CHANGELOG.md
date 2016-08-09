@@ -1,3 +1,12 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/blesh/symbol-observable/compare/1.0.1...v1.0.2) (2016-08-09)
+
+### Bug Fixes
+
+* **ECMAScript 3**: ensure output is ES3 compatible ([3f37af3](https://github.com/blesh/symbol-observable/commit/3f37af3))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/blesh/symbol-observable/compare/1.0.0...v1.0.1) (2016-06-15)
 
