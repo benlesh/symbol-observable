@@ -1,7 +1,7 @@
 /* global window */
 import ponyfill from './ponyfill';
 
-var root = module;
+var root;
 
 if (typeof self !== 'undefined') {
   root = self;
@@ -9,6 +9,8 @@ if (typeof self !== 'undefined') {
   root = window;
 } else if (typeof global !== 'undefined') {
   root = global;
+} else if (typeof module !== 'undefined') {
+  root = module;
 } else {
   root = Function('return this')();
 }
