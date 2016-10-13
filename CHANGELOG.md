@@ -1,3 +1,13 @@
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/blesh/symbol-observable/compare/1.0.3...v1.0.4) (2016-10-13)
+
+
+### Bug Fixes
+
+* **global:** global variable location no longer assumes `module` exists ([4f85ede](https://github.com/blesh/symbol-observable/commit/4f85ede)), closes [#24](https://github.com/blesh/symbol-observable/issues/24)
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/blesh/symbol-observable/compare/1.0.2...v1.0.3) (2016-10-11)
 
