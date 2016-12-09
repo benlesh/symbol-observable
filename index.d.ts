@@ -5,6 +5,8 @@ declare global {
   export interface SymbolConstructor {
     readonly observable: symbol;
   }
+
+  export const Symbol: SymbolConstructor;
 }
 
 export interface Symbol {
