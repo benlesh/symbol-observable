@@ -12,13 +12,32 @@ $ npm install --save symbol-observable
 
 ## Usage
 
+With a CommonJS loader:
+
 ```js
-const symbolObservable = require('symbol-observable');
+const symbolObservable = require('symbol-observable').default;
 
 console.log(symbolObservable);
 //=> Symbol(observable)
 ```
 
+With an ES2015 module loader:
+
+```js
+import symbolObservable from 'symbol-observable';
+
+console.log(symbolObservable);
+//=> Symbol(observable)
+```
+
+With an AMD module loader:
+
+```js
+require([ 'symbol-observable' ], function (symbolObservable) {
+	console.log(symbolObservable.default);
+	//=> Symbol(observable)
+});
+```
 
 ## Related
 
