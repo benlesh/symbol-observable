@@ -28,5 +28,4 @@ console.log(symbolObservable);
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
-MIT © [Ben Lesh](https://github.com/benlesh)
+MIT © [Sindre Sorhus](https://sindresorhus.com) and [Ben Lesh](https://github.com/benlesh)
