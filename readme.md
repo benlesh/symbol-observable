@@ -1,4 +1,4 @@
-# symbol-observable [![Build Status](https://travis-ci.org/blesh/symbol-observable.svg?branch=master)](https://travis-ci.org/blesh/symbol-observable)
+# symbol-observable [![Build Status](https://travis-ci.org/benlesh/symbol-observable.svg?branch=master)](https://travis-ci.org/benlesh/symbol-observable)
 
 > [`Symbol.observable`](https://github.com/zenparsing/es-observable) [ponyfill](https://ponyfill.com)
 
@@ -29,3 +29,4 @@ console.log(symbolObservable);
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Ben Lesh](https://github.com/benlesh)
