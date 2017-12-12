@@ -12,7 +12,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "npm run build && mocha && tsc ./ts-test/test.ts && node ./ts-test/test.js && check-es3-syntax -p lib/ --kill",
+    "test": "npm run build && mocha && tsc && node ./ts-test/test.js && check-es3-syntax -p lib/ --kill",
     "build": "babel es --out-dir lib",
     "prepublish": "npm test"
   },
