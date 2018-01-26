@@ -25,6 +25,8 @@
     "lib/index.js",
     "lib/ponyfill.js"
   ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "typings": "index.d.ts",
   "keywords": [
