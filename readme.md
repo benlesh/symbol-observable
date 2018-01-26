@@ -13,7 +13,7 @@ $ npm install --save symbol-observable
 ## Usage
 
 ```js
-const symbolObservable = require('symbol-observable');
+const symbolObservable = require('symbol-observable').default;
 
 console.log(symbolObservable);
 //=> Symbol(observable)
