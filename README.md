@@ -42,7 +42,7 @@ import Symbol_observable from 'symbol-observable';
 someObject[Symbol_observable] = () => {
   return {
     subscribe(observer) {
-      const handler = e => observer.next(e));
+      const handler = e => observer.next(e);
       someObject.addEventListener('data', handler);
       return {
         unsubscribe() {
@@ -50,7 +50,7 @@ someObject[Symbol_observable] = () => {
         }
       }
     },
-    [Symbol_observable]() { return this },
+    [Symbol_observable]() { return this }
   }
 }
 ```
