@@ -22,7 +22,7 @@ console.log(symbolObservable);
 ```ts
 import Symbol_observable from 'symbol-observable';
 
-console.log(symbolObservable);
+console.log(Symbol_observable);
 //=> Symbol(observable)
 ```
 
