@@ -43,6 +43,7 @@
     "babel-preset-es3": "^1.0.0",
     "chai": "^3.5.0",
     "check-es3-syntax-cli": "^0.1.0",
+    "flow-bin": "^0.89.0",
     "mocha": "^2.4.5",
     "typescript": "^2.1.4"
   }
