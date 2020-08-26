@@ -45,5 +45,8 @@
     "check-es3-syntax-cli": "^0.1.0",
     "mocha": "^2.4.5",
     "typescript": "^2.1.4"
+  },
+  "engines": {
+    "node": ">=0.10"
   }
 }
