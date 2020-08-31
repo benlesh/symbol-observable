@@ -23,7 +23,7 @@ describe('ponyfill unit tests', function () {
     });
 
     describe('and Symbol.observable does NOT exist', function () {
-      it('should use Symbol(), polyfill Symbol.observable and return it', function () {
+      it('should use Symbol()', function () {
         var Symbol = function (description) {
           return 'Symbol(' + description + ')';
         };
@@ -33,7 +33,6 @@ describe('ponyfill unit tests', function () {
 
         var result = ponyfill(root);
 
-        expect(Symbol.observable).to.equal('Symbol(observable)');
         expect(result).to.equal('Symbol(observable)');
       });
     });

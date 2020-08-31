@@ -16,4 +16,10 @@ if (typeof self !== 'undefined') {
 }
 
 var result = ponyfill(root);
+
+root.Symbol = root.Symbol || function Symbol(description) {
+  return '@@' + description;
+};
+root.Symbol.observable = result;
+
 export default result;
