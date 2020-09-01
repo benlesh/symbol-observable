@@ -1,15 +1,12 @@
 {
   "name": "symbol-observable",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Symbol.observable ponyfill",
   "license": "MIT",
   "repository": "blesh/symbol-observable",
   "author": {
     "name": "Ben Lesh",
     "email": "ben@benlesh.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "npm run build && mocha && tsc && node ./ts-test/test.js && check-es3-syntax -p lib/ --kill",

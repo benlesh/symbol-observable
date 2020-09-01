@@ -1,3 +1,12 @@
+# [2.0.0](https://github.com/blesh/symbol-observable/compare/1.2.0...2.0.0) (2020-09-01)
+
+
+### Bug Fixes
+
+* Resolve issues in environments with frozen Symbol ([2323882](https://github.com/blesh/symbol-observable/commit/23238827ea234188b11774f43afcb5c8deeb278e))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/blesh/symbol-observable/compare/1.1.0...v1.2.0) (2018-01-26)
 
