@@ -23,19 +23,53 @@ describe('ponyfill unit tests', function () {
     });
 
     describe('and Symbol.observable does NOT exist', function () {
-      it('should use Symbol(), polyfill Symbol.observable and return it', function () {
-        var Symbol = function (description) {
-          return 'Symbol(' + description + ')';
-        };
+      it('should use Symbol.for(), polyfill Symbol.observable and return it', function () {
+        
+        var FakeSymbol = createFakeSymbolImpl();
         var root = {
-          Symbol: Symbol
+          Symbol: FakeSymbol
         };
 
         var result = ponyfill(root);
 
-        expect(Symbol.observable).to.equal('Symbol(observable)');
-        expect(result).to.equal('Symbol(observable)');
+        expect(FakeSymbol.observable).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
+        expect(result).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
+      });
+
+      it('should not throw if Symbol is frozen', function () {
+        'use strict';
+        var FakeSymbol = createFakeSymbolImpl();
+
+        Object.freeze(FakeSymbol);
+        var root = {
+          Symbol: FakeSymbol
+        };
+
+        // If this throws, the test fails.
+        var result = ponyfill(root);
+
+        expect(FakeSymbol.observable).not.to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
+        expect(result).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
       });
     });
   });
 });
+
+
+function createFakeSymbolImpl() {
+  var symbolCounter = 0;
+  function FakeSymbol(description) {
+    return '@@_fakesymbol_' + (symbolCounter++) + '_' + description;
+  }
+
+  var forLookup = {};
+
+  FakeSymbol.for = function (id) {
+    if (!forLookup[id]) {
+      forLookup[id] = FakeSymbol(id);
+    }
+    return forLookup[id];
+  };
+
+  return FakeSymbol;
+}
