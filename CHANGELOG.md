@@ -5,7 +5,7 @@
 
 * Resolve issues in environments with frozen Symbol ([2323882](https://github.com/blesh/symbol-observable/commit/23238827ea234188b11774f43afcb5c8deeb278e))
 
-
+**BREAKING CHANGE**: This moves to using `Symbol.for` to create the symbol instance. It's _possible_ that some runtimes that support `Symbol` do not support `Symbol.for`. Therefor, I'm marking this as a breaking change. If you find that you hit this issue, please report it. You can work around it by polyfilling `Symbol.for`.
 
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/blesh/symbol-observable/compare/1.1.0...v1.2.0) (2018-01-26)
