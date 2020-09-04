@@ -1,3 +1,13 @@
+## [2.0.1](https://github.com/blesh/symbol-observable/compare/1.2.0...2.0.1) (2020-09-04)
+
+
+### Bug Fixes
+
+* **package.json:** es/ponyfill.js no longer typoed ([ad2c079](https://github.com/blesh/symbol-observable/commit/ad2c079c71536eaf972101a25eb18f5bca94ab62))
+* Resolve issues in environments with frozen Symbol ([2323882](https://github.com/blesh/symbol-observable/commit/23238827ea234188b11774f43afcb5c8deeb278e))
+
+
+
 # [2.0.0](https://github.com/blesh/symbol-observable/compare/1.2.0...2.0.0) (2020-09-01)
 
 
