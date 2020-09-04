@@ -18,7 +18,7 @@
     "ponyfill.js",
     "index.d.ts",
     "es/index.js",
-    "es/ponyfill/js",
+    "es/ponyfill.js",
     "lib/index.js",
     "lib/ponyfill.js"
   ],
