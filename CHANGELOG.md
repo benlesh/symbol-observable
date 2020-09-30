@@ -1,3 +1,9 @@
+## [2.0.3](https://github.com/blesh/symbol-observable/compare/2.0.2...2.0.3) (2020-09-30)
+
+### Bug Fixes
+
+- **package.json** ponyfill.d.ts added to package ([b25f5bf](https://github.com/blesh/symbol-observable/commit/b25f5bfe7425ad21f510428795de8b38aee70b2e))
+
 ## [2.0.2](https://github.com/blesh/symbol-observable/compare/2.0.1...2.0.2) (2020-09-29)
 
 ### Bug Fixes
