@@ -1,3 +1,18 @@
+# [3.0.0](https://github.com/blesh/symbol-observable/compare/2.0.3...3.0.0) (2020-11-02)
+
+
+### Bug Fixes
+
+* **TypeScript:** `Symbol.observable` is now `unique symbol`. ([2ef1476](https://github.com/blesh/symbol-observable/commit/2ef147644cf78538b28c3fd9e66a3b8d569a1978)), closes [#41](https://github.com/blesh/symbol-observable/issues/41)
+* **TypeScript:** `Symbol[Symbol.observable]` is no longer incorrectly defined ([fe4301f](https://github.com/blesh/symbol-observable/commit/fe4301f37b54162e1a2db91e79c5b33d652496f1))
+
+
+### BREAKING CHANGES
+
+* **TypeScript:** Older versions of `@types/node` will clash with this, because `@types/node` incorrectly defined `Symbol.observable` has `symbol` and not `unique symbol`. Update to `@types/node@14.14.6` or higher.
+
+
+
 ## [2.0.3](https://github.com/blesh/symbol-observable/compare/2.0.2...2.0.3) (2020-09-30)
 
 ### Bug Fixes

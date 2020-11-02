@@ -1,6 +1,6 @@
 {
   "name": "symbol-observable",
-  "version": "2.0.3",
+  "version": "3.0.0",
   "description": "Symbol.observable ponyfill",
   "license": "MIT",
   "repository": "blesh/symbol-observable",
