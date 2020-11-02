@@ -6,7 +6,3 @@ declare global {
     readonly observable: symbol;
   }
 }
-
-export interface Symbol {
-  readonly [Symbol.observable]: symbol;
-}
