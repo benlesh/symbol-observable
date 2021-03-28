@@ -3,6 +3,6 @@ export default observableSymbol;
 
 declare global {
   export interface SymbolConstructor {
-    readonly observable: unique symbol;
+    readonly observable: symbol;
   }
 }
