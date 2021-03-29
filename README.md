@@ -1,6 +1,8 @@
 # symbol-observable [![Build Status](https://travis-ci.org/benlesh/symbol-observable.svg?branch=master)](https://travis-ci.org/benlesh/symbol-observable)
 
-> [`Symbol.observable`](https://github.com/zenparsing/es-observable) [ponyfill](https://ponyfill.com)
+> [`Symbol.observable`](https://github.com/zenparsing/es-observable) [pony/polyfill](https://ponyfill.com)
+
+This will polyfill `Symbol.observable` if `Symbol` exists, but will not polyfill `Symbol` if it doesn't exist. Meant to be used as a "ponyfill", meaning you're meant to use the module's exported symbol value as described below. This is all done to ensure that everyone is using the same version of the symbol (or string depending on the environment), as per the nature of symbols in JavaScript.
 
 
 ## Install

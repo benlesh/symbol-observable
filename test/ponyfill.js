@@ -36,6 +36,20 @@ describe('ponyfill unit tests', function () {
         expect(result).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
       });
 
+
+      it('should use Symbol if Symbol.for does not exist', function() {
+        var FakeSymbol = createFakeSymbolImpl();
+        delete FakeSymbol.for;
+        var root = {
+          Symbol: FakeSymbol
+        };
+
+        var result = ponyfill(root);
+
+        expect(FakeSymbol.observable).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
+        expect(result).to.equal('@@_fakesymbol_0_https://github.com/benlesh/symbol-observable');
+      });
+
       it('should not throw if Symbol is frozen', function () {
         'use strict';
         var FakeSymbol = createFakeSymbolImpl();
