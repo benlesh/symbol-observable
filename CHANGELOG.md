@@ -1,3 +1,22 @@
+# [4.0.0](https://github.com/blesh/symbol-observable/compare/3.0.0...4.0.0) (2021-04-15)
+
+
+### Bug Fixes
+
+* If Symbol.for doesn't exist, just use Symbol ([ef81924](https://github.com/blesh/symbol-observable/commit/ef81924c506ba2fcc171a9b9b78a7a290fbff7b2)), closes [#53](https://github.com/blesh/symbol-observable/issues/53)
+
+
+### Code Refactoring
+
+* Revert to `symbol` from `unique symbol`, the latter caused compatibility issues and provided no real benefit. ([72ce7dc](https://github.com/blesh/symbol-observable/commit/72ce7dcc5d22f8a67ec928b61e879e1ded7a0869))
+
+
+### BREAKING CHANGES
+
+* Following the advice of the TypeScript team, the type for `Symbol.observable` is reverted back to `symbol` from `unique symbol`. This is to improve compatibility with other libraries using this module. Sincerely sorry for the trashing. Getting the types right for modules is hard. If this continues to cause issues for you, please file an issue with the [TypeScript project](https://github.com/microsoft/typescript).
+
+
+
 # [3.0.0](https://github.com/blesh/symbol-observable/compare/2.0.3...3.0.0) (2020-11-02)
 
 
