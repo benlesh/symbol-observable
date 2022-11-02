@@ -41,7 +41,7 @@
     "babel-preset-es3": "^1.0.0",
     "chai": "^3.5.0",
     "check-es3-syntax-cli": "^0.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^10.1.0",
     "typescript": "^4.0.5"
   },
   "engines": {
